@@ -1,0 +1,236 @@
+.p-0 {
+    padding: 0;  /* vnitrni odsazeni */
+}
+
+.container-fluid {
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+/* bez odsazeni zleva a zprava */
+.no-gutters {
+    margin-right: 0;
+    margin-left: 0;
+}
+
+.col-sm-6 {
+    position: relative;
+    width: 100%;
+
+}
+
+.col-lg-4 a {
+    color: #000;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+.img-fluid img {
+    vertical-align: middle;
+    border-style: none;
+}
+
+.history-box-caption {
+    position: absolute;
+    bottom: 0;
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    opacity: 0;
+    color: #fff;
+    background: rgba(0,0,0,.49);
+}
+
+.history-box-caption-content {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    transform: translateY(-50%);
+    text-align: center;
+}
+
+#myModal {
+    display: none;
+    position: fixed;
+    top: 0px;
+    overflow: hidden; /* bez posuvne listy */
+    background-color: rgba(0, 0, 0, 0.9);
+    box-sizing: border-box;
+}
+
+#modalImg {
+    margin: auto;
+    display: block;
+    max-width: 1000px;
+    max-height: 1000px;
+    box-sizing: border-box;
+}
+
+.close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+/* Prostory */
+
+
+.hall-item {
+    margin: 0 0 30px;
+    right: 0;
+}
+
+.hall-link {
+    position: relative;
+    display: block;
+    max-width: 400px;
+    margin: 0 auto;
+    cursor: pointer;
+}
+
+.hall-hover {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    transition: all ease .5s;
+    opacity: 0;
+    background: rgba(0,0,0,.7);
+}
+
+.hall-hover-content {
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    height: 20px;
+    margin-top: -12px;
+    text-align: center;
+    color: #fff;
+}
+
+.i {
+    margin-top: 12px;
+}
+
+.fa-3x {
+    font-size: 3em;
+}
+
+.fa {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    text-rendering: auto;
+}
+
+.fa-eye::before {
+    content: "\f06e";
+}
+
+.hall-caption {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 25px;
+    text-align: center;
+    background-color: #fff;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 60px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.9);
+}
+
+.modal-content {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+}
+
+.close {
+    color: #f1f1f1;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.modal-text {
+    padding: 20px;
+    color: white;
+}
+
+.modal-images {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.modal-images img {
+    max-width: 100%;
+    height: auto;
+    margin: 10px;
+}
+
+
+
+/* Fotogalerie */
+
+#gallery .container {
+    margin-top: -40px;
+}
+
+#gallery .row {
+    margin-bottom: -150px;
+}
+
+#gallery a {
+    color: #000;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+#gallery a:hover {
+    color: gray; /* barva pri najeti */
+}
+
+#gallery p {
+    font-weight: 500;
+}
+
+#gallery img {
+    border: 3px solid white;
+    border-radius: 50%;
+}
